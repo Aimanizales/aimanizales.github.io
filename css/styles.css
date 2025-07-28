@@ -1,90 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&display=swap');
 
 body {
-    font-family: 'Cairo', sans-serif;
-    background-color: #cfcfcf;
-    font-weight: 300;
+  font-family: 'Ancizar Sans', sans-serif;
+  background-color: #cfcfcf;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Ancizar Serif', serif;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 1;
+  font-size: 2.5rem;
+  font-weight: 100;
+  line-height: 1;
 }
 
-h2,h3,h4 {
-    font-weight: 300;
+p,
+li {
+  font-size: 1.1rem;
 }
 
-strong{
-    font-weight: 600;
+strong {
+  font-weight: 600;
 }
 
 article {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-    color: rgb(62, 35, 35);
+  color: rgb(195, 83, 0);
 }
 
 a:hover {
-    color: #cfcfcf;
-    background-color: rgb(86, 75, 75);
-    text-decoration: none;
+  color: #cfcfcf;
+  background-color: rgb(86, 75, 75);
+  text-decoration: none;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: #cfcfcf;
-    background-color: rgb(86, 75, 75);
+::-moz-selection {
+  /* Code for Firefox */
+  color: #cfcfcf;
+  background-color: rgb(86, 75, 75);
 }
 
 ::selection {
-    color: #cfcfcf;
-    background-color: rgb(86, 75, 75);
+  color: #cfcfcf;
+  background-color: rgb(86, 75, 75);
 }
 
 i.fab {
-    font-size: 22px;
-    margin-right: 10px;
+  font-size: 22px;
+  margin-right: 10px;
 }
 
 .jumbotron {
-    background-image: url(../images/work.jpg);
-    background-size: cover;
-    padding: 6rem 0 2rem;
-    border-radius: 0;
+  background-image: url(../images/work.jpg);
+  background-size: cover;
+  padding: 6rem 0 2rem;
+  border-radius: 0;
 }
 
 .jumbotron container {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .jumbotron .content {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #cfcfcf;
-    padding: 20px;
-    backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #cfcfcf;
+  padding: 20px;
+  backdrop-filter: blur(2px);
 }
 
 .jumbotron span {
-    color: crimson;
+  color: crimson;
 }
 
-.jumbotron img{
-    width: 150px;
+.jumbotron img {
+  width: 150px;
 }
 
-.badge-info{
-    background-color: rgb(158, 103, 103);
-    color: #cfcfcf;
+.intro {
+  font-size: 1.5rem;
 }
 
 .arabic {
-    font-family: 'Cairo', sans-serif;
+  font-family: 'Cairo', sans-serif;
+}
+
+small {
+  font-size: 95%;
+  font-weight: 100;
 }
